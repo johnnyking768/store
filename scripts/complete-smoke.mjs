@@ -1,0 +1,121 @@
+﻿import { chromium, expect } from '@playwright/test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const base=process.env.TEST_BASE_URL || 'http://127.0.0.1:5173';
+const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH || path.join(process.env.LOCALAPPDATA,'ms-playwright/chromium-1228/chrome-win64/chrome.exe')});
+const errors=[];
+const context=await browser.newContext({reducedMotion:'reduce'});
+context.on('page',p=>{p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text());});});
+const page=await context.newPage();
+await fs.mkdir('artifacts',{recursive:true});
+try {
+ await page.goto(base);
+ await expect(page.getByRole('heading',{name:'Upgrade Your World.'})).toBeVisible();
+ await expect(page.locator('.featured-section .product-card')).toHaveCount(6);
+ await expect(page.locator('.promo-grid > div')).toHaveCount(3);
+ await page.goto(base+'/product/apple-iphone-13');
+ await page.getByRole('button',{name:'256GB',exact:true}).click();
+ await page.getByRole('button',{name:'Blue',exact:true}).click();
+ await expect(page.locator('.detail-price')).toContainText('720,000');
+ await page.locator('.detail-actions').getByRole('button',{name:'Order on WhatsApp',exact:true}).click();
+ await expect(page.getByRole('dialog')).toContainText('256GB, Blue');
+ await expect(page.getByRole('dialog')).toContainText('720,000');
+ await page.keyboard.press('Escape');
+ await page.locator('.detail-actions').getByRole('button',{name:'Add to cart',exact:true}).click();
+ await expect(page.locator('.toast')).toContainText('added to cart');
+ await page.getByRole('button',{name:'128GB',exact:true}).click();
+ await page.locator('.detail-actions').getByRole('button',{name:'Add to cart',exact:true}).click();
+ await page.getByRole('button',{name:'Cart (2)',exact:true}).click();
+ await expect(page.locator('.basket-item')).toHaveCount(2);
+ await expect(page.locator('.basket-summary')).toContainText('1,340,000');
+ await page.getByLabel('Delivery location',{exact:true}).fill('Ikorodu, Lagos');
+ await page.getByText('Review enquiry text',{exact:true}).click();
+ await expect(page.locator('.basket-summary pre')).toContainText('Ikorodu, Lagos');
+ await page.keyboard.press('Escape');
+ await page.reload();
+ await page.getByRole('button',{name:'Cart (2)',exact:true}).click();
+ await expect(page.locator('.basket-item')).toHaveCount(2);
+ await page.keyboard.press('Escape');
+ await page.goto(base+'/product/samsung-galaxy-a55-5g');
+ await expect(page.locator('.recent-products')).toContainText('Apple iPhone 13');
+ await page.goto(base+'/product/tecno-phantom-v-fold');
+ await expect(page.locator('.detail-actions').getByRole('button',{name:'Out of Stock',exact:true})).toBeDisabled();
+ await page.getByRole('button',{name:'Notify me on WhatsApp',exact:true}).click();
+ await expect(page.getByRole('dialog')).toContainText('back in stock');
+ await page.keyboard.press('Escape');
+ await page.goto(base+'/shop');
+ await expect(page.locator('.catalog-layout .product-card')).toHaveCount(12);
+ await page.getByRole('button',{name:'Load more',exact:true}).click();
+ await expect(page.locator('.catalog-layout .product-card')).toHaveCount(24);
+ await page.getByLabel('Brand',{exact:true}).selectOption('Samsung');
+ await expect(page.locator('.result-count')).toContainText('7 products');
+ await page.getByLabel('Storage',{exact:true}).selectOption('256GB');
+ await expect(page).toHaveURL(/storage=256GB/);
+ await page.getByLabel('RAM',{exact:true}).selectOption('12GB');
+ await expect(page.locator('.catalog-layout .product-card')).toHaveCount(1);
+ await expect(page.locator('.catalog-layout .product-card')).toContainText('S24 Ultra');
+ await page.getByRole('button',{name:'Clear filters',exact:true}).click();
+ await expect(page.getByLabel('Brand',{exact:true})).toHaveValue('');
+ await expect(page.getByLabel('RAM',{exact:true})).toHaveValue('');
+ await page.getByLabel('Condition',{exact:true}).selectOption('UK Used');
+ await expect(page.locator('.catalog-layout .product-card')).toHaveCount(2);
+ await page.goto(base+'/shop?q=no-such-device');
+ await expect(page.getByRole('heading',{name:'No products found.'})).toBeVisible();
+ await page.goto(base+'/deals');
+ await expect(page.locator('.discount').first()).toBeVisible();
+ await page.goto(base+'/');
+ await page.getByRole('button',{name:'Search',exact:true}).click();
+ await page.getByLabel('Search phones, brands and accessories').fill('Pixel');
+ await expect(page.locator('.live-results img')).toHaveCount(2);
+ await page.keyboard.press('Escape');
+ for(const route of ['/','/shop','/brands','/accessories','/deals','/wishlist','/compare','/about','/contact','/delivery','/warranty','/faq','/trade-in','/terms','/privacy','/product/apple-iphone-15-pro-max','/not-a-page']){
+  await page.goto(base+route);
+  await expect(page.locator('main h1')).toBeVisible();
+  await expect(page.locator('meta[property="og:title"]')).toHaveCount(1);
+  await expect(page.locator('meta[name="description"]')).toHaveCount(1);
+ }
+ for(const width of [360,768,1024,1440]){
+  await page.setViewportSize({width,height:1000});
+  for(const [route,name] of [['/','home'],['/shop','shop'],['/product/apple-iphone-13','product']]){
+   await page.goto(base+route);
+   await expect(page.locator('main h1')).toBeVisible();
+   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),name+' overflow at '+width);
+   await page.screenshot({path:'artifacts/complete-'+name+'-'+width+'.png',fullPage:true});
+  }
+ }
+ await page.setViewportSize({width:360,height:900});
+ await page.goto(base+'/shop');
+ await page.getByRole('button',{name:'Filter products',exact:true}).click();
+ await page.getByRole('dialog').getByLabel('Brand',{exact:true}).selectOption('Itel');
+ await page.getByRole('button',{name:'Show 2 products',exact:true}).click();
+ await expect(page.locator('.catalog-layout .product-card')).toHaveCount(2);
+ // Test configured contacts without changing the actual store configuration.
+ const configured=await browser.newContext();
+ await configured.route('**/src/config/site.js*',async route=>{
+  const response=await route.fetch();let body=await response.text();
+  body=body.replace('WHATSAPP_NUMBER: ""','WHATSAPP_NUMBER: "2348012345678"');
+  await route.fulfill({response,body});
+ });
+ const cp=await configured.newPage();
+ cp.on('pageerror',e=>errors.push(e.message));
+ await cp.goto(base+'/product/apple-iphone-13');
+ await cp.getByRole('button',{name:'256GB',exact:true}).click();
+ await cp.getByRole('button',{name:'Blue',exact:true}).click();
+ const direct=await cp.locator('.detail-actions').getByRole('link',{name:'Order on WhatsApp',exact:true}).getAttribute('href');
+ const parsed=new URL(direct);assert.equal(parsed.hostname,'wa.me');assert.match(parsed.searchParams.get('text'),/256GB, Blue/);assert.match(parsed.searchParams.get('text'),/720,000/);
+ await cp.locator('.detail-actions').getByRole('button',{name:'Add to cart',exact:true}).click();
+ await cp.getByRole('button',{name:'Cart (1)',exact:true}).click();
+ await cp.getByLabel('Delivery location',{exact:true}).fill('Lagos & Ikeja');
+ const order=new URL(await cp.getByRole('link',{name:'Order All on WhatsApp',exact:true}).getAttribute('href'));
+ assert.match(order.searchParams.get('text'),/Lagos & Ikeja/);
+ await cp.keyboard.press('Escape');
+ await cp.goto(base+'/');
+ const orderLinks=cp.getByRole('link',{name:'Order on WhatsApp',exact:true});
+ assert((await orderLinks.count())>=7);
+ for(const href of await orderLinks.evaluateAll(elements=>elements.map(e=>e.href)))assert.equal(new URL(href).hostname,'wa.me');
+ await configured.close();
+ assert.deepEqual(errors,[]);
+ console.log('PASS: routes/SEO, product variants, separate cart lines/totals/persistence/delivery, WhatsApp links, stock enquiries, search, filters, load more, recent views and responsive layouts at 360/768/1024/1440px. No console errors.');
+} finally { await browser.close(); }
+

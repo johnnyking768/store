@@ -1,0 +1,21 @@
+[
+  {
+    "id": "example-item-001",
+    "slug": "example-product",
+    "name": "Example product - replace before launch",
+    "brand": "Example brand",
+    "category": "smartphones",
+    "price": 850000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/phones/placeholder.svg",
+    "images": [],
+    "description": "Replace this sample description with verified product information.",
+    "specifications": {
+      "Model": "Replace with the exact verified model",
+      "Condition": "Replace with the verified condition"
+    }
+  }
+]

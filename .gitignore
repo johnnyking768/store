@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env*
+!.env.example
+
+.catalog-backups/
+src/data/catalog.json.*.tmp

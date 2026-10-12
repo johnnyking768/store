@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "apple-iphone-15-pro-max",
+    "slug": "apple-iphone-15-pro-max",
+    "name": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 1450000,
+    "inStock": true,
+    "isSample": true,
+    "featured": true,
+    "deal": true,
+    "oldPrice": 1624000,
+    "badge": "SALE",
+    "image": "/images/products/iphone-15-pro-max.jpg",
+    "images": [],
+    "description": "iPhone 15 Pro Max with 6.7-inch oled, 120hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.7-inch OLED, 120Hz",
+      "Processor": "Apple A17 Pro",
+      "Camera": "48MP main + 12MP ultrawide + 12MP telephoto",
+      "Battery": "Up to 29 hours video playback",
+      "OS": "iOS 17 at launch",
+      "Network": "5G",
+      "SIM": "Regional model dependent; confirm nano-SIM/eSIM support",
+      "Storage": "256GB",
+      "RAM": "Not specified"
+    },
+    "variants": [
+      {
+        "id": "256gb-not-specified",
+        "storage": "256GB",
+        "ram": "Not specified",
+        "price": 1450000
+      },
+      {
+        "id": "512gb-not-specified",
+        "storage": "512GB",
+        "ram": "Not specified",
+        "price": 1700000
+      }
+    ],
+    "colors": [
+      "Natural Titanium",
+      "Black Titanium"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-09-22"
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "slug": "samsung-galaxy-s24-ultra",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 1550000,
+    "inStock": true,
+    "isSample": true,
+    "featured": true,
+    "deal": false,
+    "badge": "HOT",
+    "image": "/images/products/galaxy-s24-ultra.jpg",
+    "images": [],
+    "description": "Galaxy S24 Ultra with 6.8-inch amoled, 120hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.8-inch AMOLED, 120Hz",
+      "Processor": "Snapdragon 8 Gen 3 for Galaxy",
+      "Camera": "200MP main + ultrawide and dual telephoto",
+      "Battery": "5000mAh",
+      "OS": "Android 14 at launch",
+      "Network": "5G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "256GB",
+      "RAM": "12GB"
+    },
+    "variants": [
+      {
+        "id": "256gb-12gb",
+        "storage": "256GB",
+        "ram": "12GB",
+        "price": 1550000
+      },
+      {
+        "id": "512gb-12gb",
+        "storage": "512GB",
+        "ram": "12GB",
+        "price": 1750000
+      }
+    ],
+    "colors": [
+      "Titanium Gray",
+      "Titanium Black"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2024-01-31"
+  },
+  {
+    "id": "tecno-camon-30-pro-5g",
+    "slug": "tecno-camon-30-pro-5g",
+    "name": "Tecno Camon 30 Pro 5G",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "price": 750000,
+    "inStock": true,
+    "isSample": true,
+    "featured": true,
+    "deal": false,
+    "badge": "HOT",
+    "image": "/images/products/camon-30-pro-5g.jpg",
+    "images": [],
+    "description": "Camon 30 Pro 5G with 6.78-inch amoled, 144hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.78-inch AMOLED, 144Hz",
+      "Processor": "MediaTek Dimensity 8200 Ultimate",
+      "Camera": "50MP main + 50MP ultrawide + 2MP depth",
+      "Battery": "5000mAh",
+      "OS": "Android 14 at launch",
+      "Network": "5G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "256GB",
+      "RAM": "12GB"
+    },
+    "variants": [
+      {
+        "id": "256gb-12gb",
+        "storage": "256GB",
+        "ram": "12GB",
+        "price": 750000
+      }
+    ],
+    "colors": [
+      "Iceland Basaltic Dark",
+      "Alps Snowy Silver"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2024-04-01"
+  },
+  {
+    "id": "google-pixel-8-pro",
+    "slug": "google-pixel-8-pro",
+    "name": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "category": "smartphones",
+    "price": 780000,
+    "inStock": true,
+    "isSample": true,
+    "featured": true,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/pixel-8-pro.jpg",
+    "images": [],
+    "description": "Pixel 8 Pro with 6.7-inch oled, up to 120hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.7-inch OLED, up to 120Hz",
+      "Processor": "Google Tensor G3",
+      "Camera": "50MP main + 48MP ultrawide + 48MP telephoto",
+      "Battery": "5050mAh typical",
+      "OS": "Android 14 at launch",
+      "Network": "5G",
+      "SIM": "Nano-SIM and eSIM; confirm carrier support",
+      "Storage": "128GB",
+      "RAM": "12GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-12gb",
+        "storage": "128GB",
+        "ram": "12GB",
+        "price": 780000
+      },
+      {
+        "id": "256gb-12gb",
+        "storage": "256GB",
+        "ram": "12GB",
+        "price": 870000
+      }
+    ],
+    "colors": [
+      "Obsidian",
+      "Bay"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-10-12"
+  },
+  {
+    "id": "xiaomi-redmi-note-13-4g",
+    "slug": "xiaomi-redmi-note-13-4g",
+    "name": "Xiaomi Redmi Note 13 4G",
+    "brand": "Xiaomi",
+    "category": "smartphones",
+    "price": 265000,
+    "inStock": true,
+    "isSample": true,
+    "featured": true,
+    "deal": true,
+    "oldPrice": 297000,
+    "badge": "SALE",
+    "image": "/images/products/redmi-note-13.jpg",
+    "images": [],
+    "description": "Redmi Note 13 4G with 6.67-inch amoled, 120hz and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.67-inch AMOLED, 120Hz",
+      "Processor": "Snapdragon 685",
+      "Camera": "108MP main + 8MP ultrawide + 2MP macro",
+      "Battery": "5000mAh",
+      "OS": "MIUI 14 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "6GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-6gb",
+        "storage": "128GB",
+        "ram": "6GB",
+        "price": 265000
+      },
+      {
+        "id": "256gb-8gb",
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 310000
+      }
+    ],
+    "colors": [
+      "Midnight Black",
+      "Mint Green"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2024-01-15"
+  },
+  {
+    "id": "infinix-note-40-pro-4g",
+    "slug": "infinix-note-40-pro-4g",
+    "name": "Infinix Note 40 Pro 4G",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "price": 350000,
+    "inStock": true,
+    "isSample": true,
+    "featured": true,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/note-40-pro.jpg",
+    "images": [],
+    "description": "Note 40 Pro 4G with 6.78-inch amoled, 120hz and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.78-inch AMOLED, 120Hz",
+      "Processor": "MediaTek Helio G99 Ultimate",
+      "Camera": "108MP main with OIS",
+      "Battery": "5000mAh",
+      "OS": "Android 14 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "256GB",
+      "RAM": "8GB"
+    },
+    "variants": [
+      {
+        "id": "256gb-8gb",
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 350000
+      }
+    ],
+    "colors": [
+      "Vintage Green",
+      "Titan Black"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2024-03-19"
+  },
+  {
+    "id": "apple-iphone-13",
+    "slug": "apple-iphone-13",
+    "name": "Apple iPhone 13",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 620000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/iphone-13.jpg",
+    "images": [],
+    "description": "iPhone 13 with 6.1-inch oled and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.1-inch OLED",
+      "Processor": "Apple A15 Bionic",
+      "Camera": "Dual 12MP main and ultrawide",
+      "Battery": "Up to 19 hours video playback",
+      "OS": "iOS 15 at launch",
+      "Network": "5G",
+      "SIM": "Regional model dependent; confirm nano-SIM/eSIM support",
+      "Storage": "128GB",
+      "RAM": "Not specified"
+    },
+    "variants": [
+      {
+        "id": "128gb-not-specified",
+        "storage": "128GB",
+        "ram": "Not specified",
+        "price": 620000
+      },
+      {
+        "id": "256gb-not-specified",
+        "storage": "256GB",
+        "ram": "Not specified",
+        "price": 720000
+      }
+    ],
+    "colors": [
+      "Midnight",
+      "Blue"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2021-09-24"
+  },
+  {
+    "id": "apple-iphone-14",
+    "slug": "apple-iphone-14",
+    "name": "Apple iPhone 14",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 760000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/iphone-14.jpg",
+    "images": [],
+    "description": "iPhone 14 with 6.1-inch oled and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.1-inch OLED",
+      "Processor": "Apple A15 Bionic",
+      "Camera": "Dual 12MP main and ultrawide",
+      "Battery": "Up to 20 hours video playback",
+      "OS": "iOS 16 at launch",
+      "Network": "5G",
+      "SIM": "Regional model dependent; confirm nano-SIM/eSIM support",
+      "Storage": "128GB",
+      "RAM": "Not specified"
+    },
+    "variants": [
+      {
+        "id": "128gb-not-specified",
+        "storage": "128GB",
+        "ram": "Not specified",
+        "price": 760000
+      },
+      {
+        "id": "256gb-not-specified",
+        "storage": "256GB",
+        "ram": "Not specified",
+        "price": 870000
+      }
+    ],
+    "colors": [
+      "Midnight",
+      "Purple"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2022-09-16"
+  },
+  {
+    "id": "samsung-galaxy-a15-4g",
+    "slug": "samsung-galaxy-a15-4g",
+    "name": "Samsung Galaxy A15 4G",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 230000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/galaxy-a15.jpg",
+    "images": [],
+    "description": "Galaxy A15 4G with 6.5-inch super amoled, 90hz and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.5-inch Super AMOLED, 90Hz",
+      "Processor": "MediaTek Helio G99",
+      "Camera": "50MP main + 5MP ultrawide + 2MP macro",
+      "Battery": "5000mAh",
+      "OS": "Android 14 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "4GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-4gb",
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 230000
+      },
+      {
+        "id": "256gb-8gb",
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 280000
+      }
+    ],
+    "colors": [
+      "Blue Black",
+      "Light Blue"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-12-16"
+  },
+  {
+    "id": "samsung-galaxy-a55-5g",
+    "slug": "samsung-galaxy-a55-5g",
+    "name": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 520000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/galaxy-a55.jpg",
+    "images": [],
+    "description": "Galaxy A55 5G with 6.6-inch super amoled, 120hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.6-inch Super AMOLED, 120Hz",
+      "Processor": "Exynos 1480",
+      "Camera": "50MP main + 12MP ultrawide + 5MP macro",
+      "Battery": "5000mAh",
+      "OS": "Android 14 at launch",
+      "Network": "5G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "8GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-8gb",
+        "storage": "128GB",
+        "ram": "8GB",
+        "price": 520000
+      },
+      {
+        "id": "256gb-8gb",
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 580000
+      }
+    ],
+    "colors": [
+      "Awesome Navy",
+      "Awesome Iceblue"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2024-03-15"
+  },
+  {
+    "id": "tecno-spark-20-pro",
+    "slug": "tecno-spark-20-pro",
+    "name": "Tecno Spark 20 Pro",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "price": 230000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": true,
+    "oldPrice": 258000,
+    "badge": "SALE",
+    "image": "/images/products/spark-20-pro.jpg",
+    "images": [],
+    "description": "Spark 20 Pro with 6.78-inch lcd, 120hz and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.78-inch LCD, 120Hz",
+      "Processor": "MediaTek Helio G99",
+      "Camera": "108MP main",
+      "Battery": "5000mAh",
+      "OS": "Android 13 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "256GB",
+      "RAM": "8GB"
+    },
+    "variants": [
+      {
+        "id": "256gb-8gb",
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 230000
+      }
+    ],
+    "colors": [
+      "Moonlit Black",
+      "Sunset Blush"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-12-01"
+  },
+  {
+    "id": "tecno-phantom-v-fold",
+    "slug": "tecno-phantom-v-fold",
+    "name": "Tecno Phantom V Fold",
+    "brand": "Tecno",
+    "category": "smartphones",
+    "price": 1200000,
+    "inStock": false,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/phantom-v-fold.jpg",
+    "images": [],
+    "description": "Phantom V Fold with 7.85-inch foldable amoled, 120hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "7.85-inch foldable AMOLED, 120Hz",
+      "Processor": "MediaTek Dimensity 9000+",
+      "Camera": "50MP main + 50MP telephoto + 13MP ultrawide",
+      "Battery": "5000mAh",
+      "OS": "Android 13 at launch",
+      "Network": "5G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "256GB",
+      "RAM": "12GB"
+    },
+    "variants": [
+      {
+        "id": "256gb-12gb",
+        "storage": "256GB",
+        "ram": "12GB",
+        "price": 1200000
+      },
+      {
+        "id": "512gb-12gb",
+        "storage": "512GB",
+        "ram": "12GB",
+        "price": 1350000
+      }
+    ],
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-04-11"
+  },
+  {
+    "id": "infinix-hot-40-pro",
+    "slug": "infinix-hot-40-pro",
+    "name": "Infinix Hot 40 Pro",
+    "brand": "Infinix",
+    "category": "smartphones",
+    "price": 220000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/hot-40-pro.jpg",
+    "images": [],
+    "description": "Hot 40 Pro with 6.78-inch lcd, 120hz and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.78-inch LCD, 120Hz",
+      "Processor": "MediaTek Helio G99",
+      "Camera": "108MP main + macro and auxiliary cameras",
+      "Battery": "5000mAh",
+      "OS": "Android 13 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "8GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-8gb",
+        "storage": "128GB",
+        "ram": "8GB",
+        "price": 220000
+      },
+      {
+        "id": "256gb-8gb",
+        "storage": "256GB",
+        "ram": "8GB",
+        "price": 250000
+      }
+    ],
+    "colors": [
+      "Starlit Black",
+      "Palm Blue"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-12-05"
+  },
+  {
+    "id": "itel-s23",
+    "slug": "itel-s23",
+    "name": "Itel S23",
+    "brand": "Itel",
+    "category": "smartphones",
+    "price": 135000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/itel-s23.jpg",
+    "images": [],
+    "description": "S23 with 6.6-inch lcd, 90hz and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.6-inch LCD, 90Hz",
+      "Processor": "Unisoc T606",
+      "Camera": "50MP main",
+      "Battery": "5000mAh",
+      "OS": "Android 12 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "8GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-8gb",
+        "storage": "128GB",
+        "ram": "8GB",
+        "price": 135000
+      }
+    ],
+    "colors": [
+      "Starry Black",
+      "Mystery White"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-06-09"
+  },
+  {
+    "id": "oppo-a58-4g",
+    "slug": "oppo-a58-4g",
+    "name": "Oppo A58 4G",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "price": 230000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/oppo-a58.jpg",
+    "images": [],
+    "description": "A58 4G with 6.72-inch lcd and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.72-inch LCD",
+      "Processor": "MediaTek Helio G85",
+      "Camera": "50MP main + 2MP mono",
+      "Battery": "5000mAh",
+      "OS": "ColorOS 13.1 at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "6GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-6gb",
+        "storage": "128GB",
+        "ram": "6GB",
+        "price": 230000
+      }
+    ],
+    "colors": [
+      "Glowing Black",
+      "Dazzling Green"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-07-01"
+  },
+  {
+    "id": "itel-a70",
+    "slug": "itel-a70",
+    "name": "Itel A70",
+    "brand": "Itel",
+    "category": "smartphones",
+    "price": 110000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/itel-a70.jpg",
+    "images": [],
+    "description": "A70 with 6.6-inch lcd and 4G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.6-inch LCD",
+      "Processor": "Unisoc T603",
+      "Camera": "13MP main",
+      "Battery": "5000mAh",
+      "OS": "Android 13 Go edition at launch",
+      "Network": "4G",
+      "SIM": "Dual nano-SIM; confirm regional model",
+      "Storage": "128GB",
+      "RAM": "4GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-4gb",
+        "storage": "128GB",
+        "ram": "4GB",
+        "price": 110000
+      }
+    ],
+    "colors": [
+      "Brilliant Gold",
+      "Starlish Black"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-10-30"
+  },
+  {
+    "id": "apple-iphone-13-uk-used",
+    "slug": "apple-iphone-13-uk-used",
+    "name": "Apple iPhone 13 UK Used",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 480000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/iphone-13.jpg",
+    "images": [],
+    "description": "iPhone 13 UK Used with 6.1-inch oled and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.1-inch OLED",
+      "Processor": "Apple A15 Bionic",
+      "Camera": "Dual 12MP main and ultrawide",
+      "Battery": "Battery health requires inspection",
+      "OS": "iOS; installed version to confirm",
+      "Network": "5G",
+      "SIM": "Regional model dependent; confirm nano-SIM/eSIM support",
+      "Storage": "128GB",
+      "RAM": "Not specified"
+    },
+    "variants": [
+      {
+        "id": "128gb-not-specified",
+        "storage": "128GB",
+        "ram": "Not specified",
+        "price": 480000
+      },
+      {
+        "id": "256gb-not-specified",
+        "storage": "256GB",
+        "ram": "Not specified",
+        "price": 560000
+      }
+    ],
+    "colors": [
+      "Midnight",
+      "Blue"
+    ],
+    "condition": "UK Used",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2021-09-24"
+  },
+  {
+    "id": "google-pixel-8-pro-uk-used",
+    "slug": "google-pixel-8-pro-uk-used",
+    "name": "Google Pixel 8 Pro UK Used",
+    "brand": "Google",
+    "category": "smartphones",
+    "price": 620000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "badge": "NEW",
+    "image": "/images/products/pixel-8-pro.jpg",
+    "images": [],
+    "description": "Pixel 8 Pro UK Used with 6.7-inch oled, up to 120hz and 5G connectivity. Approximate Nigerian sample price; confirm the exact regional model, available colours and stock with the store.",
+    "specifications": {
+      "Display": "6.7-inch OLED, up to 120Hz",
+      "Processor": "Google Tensor G3",
+      "Camera": "50MP main + 48MP ultrawide + 48MP telephoto",
+      "Battery": "Battery health requires inspection",
+      "OS": "Android; installed version to confirm",
+      "Network": "5G",
+      "SIM": "Nano-SIM and eSIM; confirm carrier support",
+      "Storage": "128GB",
+      "RAM": "12GB"
+    },
+    "variants": [
+      {
+        "id": "128gb-12gb",
+        "storage": "128GB",
+        "ram": "12GB",
+        "price": 620000
+      }
+    ],
+    "colors": [
+      "Obsidian",
+      "Bay"
+    ],
+    "condition": "UK Used",
+    "rating": 0,
+    "reviewCount": 0,
+    "released": "2023-10-12"
+  },
+  {
+    "id": "apple-airpods-pro-2nd-generation",
+    "slug": "apple-airpods-pro-2nd-generation",
+    "name": "Apple AirPods Pro (2nd generation)",
+    "brand": "Apple",
+    "category": "earbuds",
+    "price": 280000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/airpods-pro-2.jpg",
+    "images": [],
+    "description": "AirPods Pro (2nd generation) for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Audio": "Active noise cancellation",
+      "Connectivity": "Bluetooth",
+      "Charging": "USB-C case; confirm revision"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 280000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "samsung-galaxy-buds-fe",
+    "slug": "samsung-galaxy-buds-fe",
+    "name": "Samsung Galaxy Buds FE",
+    "brand": "Samsung",
+    "category": "earbuds",
+    "price": 95000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/galaxy-buds-fe.jpg",
+    "images": [],
+    "description": "Galaxy Buds FE for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Audio": "Active noise cancellation",
+      "Connectivity": "Bluetooth",
+      "Charging": "USB-C case"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 95000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "jbl-wave-buds",
+    "slug": "jbl-wave-buds",
+    "name": "JBL Wave Buds",
+    "brand": "JBL",
+    "category": "earbuds",
+    "price": 60000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/jbl-wave-buds.jpg",
+    "images": [],
+    "description": "Wave Buds for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Audio": "8mm drivers",
+      "Connectivity": "Bluetooth",
+      "Protection": "IP54 earbuds"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 60000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "apple-watch-se-2nd-generation-40mm-gps",
+    "slug": "apple-watch-se-2nd-generation-40mm-gps",
+    "name": "Apple Watch SE (2nd generation) 40mm GPS",
+    "brand": "Apple",
+    "category": "smartwatches",
+    "price": 320000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/apple-watch-se-2.jpg",
+    "images": [],
+    "description": "Watch SE (2nd generation) 40mm GPS for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Display": "Retina OLED",
+      "Connectivity": "GPS / Bluetooth",
+      "Compatibility": "Compatible iPhone required"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 320000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "samsung-galaxy-watch6-40mm-bluetooth",
+    "slug": "samsung-galaxy-watch6-40mm-bluetooth",
+    "name": "Samsung Galaxy Watch6 40mm Bluetooth",
+    "brand": "Samsung",
+    "category": "smartwatches",
+    "price": 250000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/galaxy-watch6.jpg",
+    "images": [],
+    "description": "Galaxy Watch6 40mm Bluetooth for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Display": "Super AMOLED",
+      "OS": "Wear OS",
+      "Compatibility": "Compatible Android phone required"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 250000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "xiaomi-smart-band-8",
+    "slug": "xiaomi-smart-band-8",
+    "name": "Xiaomi Smart Band 8",
+    "brand": "Xiaomi",
+    "category": "smartwatches",
+    "price": 65000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/xiaomi-smart-band-8.jpg",
+    "images": [],
+    "description": "Smart Band 8 for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Display": "1.62-inch AMOLED",
+      "Connectivity": "Bluetooth",
+      "Tracking": "Activity and fitness tracking"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 65000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "apple-20w-usb-c-power-adapter",
+    "slug": "apple-20w-usb-c-power-adapter",
+    "name": "Apple 20W USB-C Power Adapter",
+    "brand": "Apple",
+    "category": "accessories",
+    "price": 35000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": true,
+    "oldPrice": 43750,
+    "badge": "SALE",
+    "image": "/images/products/apple-20w-adapter.jpg",
+    "images": [],
+    "description": "20W USB-C Power Adapter for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Power": "20W",
+      "Port": "USB-C",
+      "Included": "Adapter only; cable sold separately"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 35000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "samsung-25w-usb-c-power-adapter",
+    "slug": "samsung-25w-usb-c-power-adapter",
+    "name": "Samsung 25W USB-C Power Adapter",
+    "brand": "Samsung",
+    "category": "accessories",
+    "price": 28000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": true,
+    "oldPrice": 35000,
+    "badge": "SALE",
+    "image": "/images/products/samsung-25w-adapter.jpg",
+    "images": [],
+    "description": "25W USB-C Power Adapter for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Power": "25W",
+      "Port": "USB-C",
+      "Compatibility": "USB PD compatible devices"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 28000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "anker-powercore-10000",
+    "slug": "anker-powercore-10000",
+    "name": "Anker PowerCore 10000",
+    "brand": "Anker",
+    "category": "accessories",
+    "price": 50000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": true,
+    "oldPrice": 62500,
+    "badge": "SALE",
+    "image": "/images/products/anker-powercore-10000.jpg",
+    "images": [],
+    "description": "PowerCore 10000 for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Capacity": "10000mAh nominal",
+      "Output": "USB-A",
+      "Use": "Portable charging; check device compatibility"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 50000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "apple-usb-c-charge-cable-1m",
+    "slug": "apple-usb-c-charge-cable-1m",
+    "name": "Apple USB-C Charge Cable (1m)",
+    "brand": "Apple",
+    "category": "accessories",
+    "price": 22000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": true,
+    "oldPrice": 27500,
+    "badge": "SALE",
+    "image": "/images/products/apple-usb-c-cable-1m.jpg",
+    "images": [],
+    "description": "USB-C Charge Cable (1m) for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Length": "1 metre",
+      "Connector": "USB-C to USB-C",
+      "Use": "Charging and data"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 22000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "apple-iphone-15-pro-max-silicone-case-with-magsafe",
+    "slug": "apple-iphone-15-pro-max-silicone-case-with-magsafe",
+    "name": "Apple iPhone 15 Pro Max Silicone Case with MagSafe",
+    "brand": "Apple",
+    "category": "accessories",
+    "price": 65000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": true,
+    "oldPrice": 81250,
+    "badge": "SALE",
+    "image": "/images/products/iphone-15-case.jpg",
+    "images": [],
+    "description": "iPhone 15 Pro Max Silicone Case with MagSafe for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Compatibility": "iPhone 15 Pro Max",
+      "Material": "Silicone",
+      "Feature": "MagSafe compatible"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "Standard",
+        "ram": "Not specified",
+        "price": 65000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "apple-ipad-10th-generation-wi-fi",
+    "slug": "apple-ipad-10th-generation-wi-fi",
+    "name": "Apple iPad (10th generation) Wi-Fi",
+    "brand": "Apple",
+    "category": "tablets",
+    "price": 580000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/ipad-10th-gen.jpg",
+    "images": [],
+    "description": "iPad (10th generation) Wi-Fi for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Display": "10.9-inch Liquid Retina",
+      "Processor": "Apple A14 Bionic",
+      "Camera": "12MP rear / 12MP landscape front",
+      "Battery": "Up to 10 hours web surfing on Wi-Fi",
+      "OS": "iPadOS",
+      "Network": "Wi-Fi",
+      "SIM": "Not applicable",
+      "Storage": "64GB"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "64GB",
+        "ram": "Not specified",
+        "price": 580000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "samsung-galaxy-tab-a9-wi-fi",
+    "slug": "samsung-galaxy-tab-a9-wi-fi",
+    "name": "Samsung Galaxy Tab A9 Wi-Fi",
+    "brand": "Samsung",
+    "category": "tablets",
+    "price": 210000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/galaxy-tab-a9.jpg",
+    "images": [],
+    "description": "Galaxy Tab A9 Wi-Fi for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Display": "8.7-inch LCD",
+      "Processor": "MediaTek Helio G99",
+      "Camera": "8MP rear / 2MP front",
+      "Battery": "5100mAh",
+      "OS": "Android",
+      "Network": "Wi-Fi",
+      "SIM": "Not applicable",
+      "Storage": "64GB"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "64GB",
+        "ram": "Not specified",
+        "price": 210000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  },
+  {
+    "id": "xiaomi-redmi-pad-se",
+    "slug": "xiaomi-redmi-pad-se",
+    "name": "Xiaomi Redmi Pad SE",
+    "brand": "Xiaomi",
+    "category": "tablets",
+    "price": 260000,
+    "inStock": true,
+    "isSample": true,
+    "featured": false,
+    "deal": false,
+    "image": "/images/products/redmi-pad-se.jpg",
+    "images": [],
+    "description": "Redmi Pad SE for your everyday setup. Sample listing: confirm compatibility, included accessories and current price before ordering.",
+    "specifications": {
+      "Display": "11-inch LCD, 90Hz",
+      "Processor": "Snapdragon 680",
+      "Camera": "8MP rear / 5MP front",
+      "Battery": "8000mAh",
+      "OS": "MIUI Pad 14 at launch",
+      "Network": "Wi-Fi",
+      "SIM": "Not applicable",
+      "Storage": "128GB"
+    },
+    "variants": [
+      {
+        "id": "standard",
+        "storage": "128GB",
+        "ram": "Not specified",
+        "price": 260000
+      }
+    ],
+    "colors": [
+      "As pictured"
+    ],
+    "condition": "New",
+    "rating": 0,
+    "reviewCount": 0
+  }
+]

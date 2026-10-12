@@ -1,0 +1,36 @@
+{
+  "name": "mobistore",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/catalog.mjs validate && node scripts/seo.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "catalog:validate": "node scripts/catalog.mjs validate",
+    "catalog:import": "node scripts/catalog.mjs import",
+    "check:launch": "node scripts/check-launch.mjs",
+    "build:release": "node scripts/check-launch.mjs && node scripts/seo.mjs && vite build",
+    "test:catalog": "node --test scripts/catalog.test.mjs",
+    "seo:generate": "node scripts/seo.mjs",
+    "predev": "npm run seo:generate",
+    "test": "node --test scripts/catalog.test.mjs scripts/orders.test.mjs",
+    "test:browser": "node scripts/complete-smoke.mjs && node scripts/support-smoke.mjs && node scripts/gallery-smoke.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21"
+  }
+}
